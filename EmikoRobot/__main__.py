@@ -462,7 +462,7 @@ def emiko_about_callback(update, context):
                 [
                  [
                     InlineKeyboardButton(text="sena-ex", url="https://github.com/kennedy-ex"),
-                    InlineKeyboardButton(text="Zeasan", url="https://github.com/TheHamkerCat"),
+                    InlineKeyboardButton(text="ᴢᴇᴀ𝖘𝖆𝖓°🇮🇩", url="https://github.com/Kykoubot"),
                  ],
                  [
                     InlineKeyboardButton(text="Feri", url="https://github.com/FeriEXP"),
@@ -798,7 +798,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "👋 Hi, i'm alive.",
+                "Hi, i'm alive.✨",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
