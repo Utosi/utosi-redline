@@ -9,12 +9,12 @@ from EmikoRobot.events import register
 from EmikoRobot import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/79e73fb3d58543401148d.jpg"
+PHOTO = "https://telegra.ph/file/43d1fd4fa4043789c66c2.jpg"
 
 
 @register(pattern=("/alive"))
 async def awake(event):
-    TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Zebo Robot.** \n\n"
+    TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Zebo.** \n\n"
     TEXT += "⚪ **I'm Working Properly** \n\n"
     TEXT += f"⚪ **My Master : [ZeaFeya](https://t.me/zeafeya)** \n\n"
     TEXT += f"⚪ **Library Version :** `{telever}` \n\n"
@@ -23,7 +23,7 @@ async def awake(event):
     TEXT += "**Thanks For Adding Me Here ❤️**"
     BUTTON = [
         [
-            Button.url("Help", "https://t.me/zeborobot?start=help"),
+            Button.url("Help", "https://t.me/zeamusicuser_bot?start=help"),
             Button.url("Support", "https://t.me/dbzea"),
         ]
     ]
