@@ -88,7 +88,7 @@ PM_START_TEXT = """
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
 ────────────────────────
-✪ Hit /help, maintenance by [Zeafeya(@zeafeya). 
+✪ Hit /help, maintenance by [Zeafeya](@zeafeya). 
 """
 
 buttons = [
