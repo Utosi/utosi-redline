@@ -29,7 +29,7 @@ def get_user_list(__init__, key):
 
 
 # enable logging
-FORMAT = "[EmikoRobot] %(message)s"
+FORMAT = "[ᴢᴇʙᴏ] %(message)s"
 logging.basicConfig(
     handlers=[logging.FileHandler("log.txt"), logging.StreamHandler()],
     level=logging.INFO,
@@ -41,8 +41,8 @@ logging.getLogger("ptbcontrib.postgres_persistence.postgrespersistence").setLeve
     logging.WARNING
 )
 
-LOGGER = logging.getLogger("[EmikoRobot]")
-LOGGER.info("Emiko is starting. | An Kennedy Project Parts. | Licensed under GPLv3.")
+LOGGER = logging.getLogger("[ᴢᴇʙᴏ]")
+LOGGER.info("ᴢᴇʙᴏ is starting. | An Kennedy Project Parts. | Licensed under GPLv3.")
 LOGGER.info("Not affiliated to other anime or Villain in any way whatsoever.")
 LOGGER.info("Project maintained by: github.com/kennedy-ex (t.me/excrybaby)")
 
