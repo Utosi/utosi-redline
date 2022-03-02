@@ -88,7 +88,7 @@ PM_START_TEXT = """
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
 ────────────────────────
-✪ Hit /help, maintenance by [Zeafeya](t.me/zeafeya). 
+✪ Hit /help, maintenance by [Zeafeya(@zeafeya). 
 """
 
 buttons = [
@@ -396,7 +396,7 @@ def emiko_about_callback(update, context):
                     [
                         InlineKeyboardButton(
                             text="Source Code",
-                            url="https://github.com/kykoubot/Zeborobot",
+                            url="https://github.com/kykoubot/Zebobot",
                         ),
                     ],
                     [
@@ -426,7 +426,7 @@ def emiko_about_callback(update, context):
     elif query.data == "emiko_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, ZeboRobot now ready to manage your group."
+            "\nCongragulations, Zebo now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -474,7 +474,7 @@ def emiko_about_callback(update, context):
     elif query.data == "emiko_credit":
         query.message.edit_text(
             text=f"๏ Credis for Zebo\n"
-            "\nHere Developers Making And Give Inspiration For Made The ZeboRobot",
+            "\nHere Developers Making And Give Inspiration For Made The Zebo",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
