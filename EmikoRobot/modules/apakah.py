@@ -8,11 +8,11 @@ APAKAH_STRING = [
     "Mungkin",
     "Mungkin Tidak",
     "Bisa jadi",
-    "Mungkin Tidak",
+    "Hah",
     "Tidak Mungkin",
     "YNTKTS",
-    "Pala bapak kau pecah",
-    "Apa iya?",
+    "Maap ga dulu",
+    "Coba tanya [Zea](@zeafeya)",
     "Tanya aja sama mamak kau tu pler",
 ]
 
