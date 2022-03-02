@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/37e753503b3416e226f67.jpg">
+  <img src="https://telegra.ph/file/eff1c0d9b8ed64fd017e8.jpg">
 </p>
 
 <h4><p align="center"> ZEBO ROBOT </p></h4>
